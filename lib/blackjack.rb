@@ -39,7 +39,7 @@ user_input = get_user_input
   card_total += deal_card
   elsif user_input == 's'
   card_total
-  else 
+  else
   invalid_command
   end
 end
