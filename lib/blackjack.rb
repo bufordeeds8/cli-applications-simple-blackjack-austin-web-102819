@@ -27,7 +27,6 @@ end
 def initial_round
   card_one = deal_card
   card_two = deal_card
-  binding.pry
   card_total = card_one + card_two
   display_card_total(card_total)
   return card_total
@@ -48,3 +47,4 @@ end
 def runner
   # code runner here
 end
+
